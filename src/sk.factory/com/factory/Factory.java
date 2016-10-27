@@ -20,7 +20,7 @@ public class Factory {
 
     public static void main(String[] args) {
         Factory factory = new Factory();
-        Product product = factory.createToy();
+        Product product = factory.createProduct();
 		//sk.toy모듈에는 interface만 존재하고, 실제 구현체는 sk.toyaction모듈에 존재
 		//sk.factory 모듈에서 sk.toyaction을 직접 참조 하고 있지 않지만 구현체의 메소드를 호출함.
         product.playToyAction();
